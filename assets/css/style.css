@@ -326,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color:  #fa8d50;;
+  color:  #fa8d50;
   text-decoration: none;
 }
 
