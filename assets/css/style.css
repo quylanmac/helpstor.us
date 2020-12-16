@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #73c5eb;
+  color: #fa8d50;;
   text-decoration: none;
 }
 
@@ -72,7 +72,9 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(360deg);
   }
 }
-
+.logoNav {
+  width:100%;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -98,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #209dd8;
+  background:  #fa8d50;;
   color: #fff;
 }
 
@@ -165,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #F8A271;
+  color:  #fa8d50;;
 }
 
 .nav-menu .drop-down ul {
@@ -203,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #F8A271;
+  color:  #fa8d50;;
 }
 
 .nav-menu .drop-down > a:after {
@@ -261,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #31a9e1;
+  background: #fa8d50;
   color: #fff;
 }
 
@@ -324,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #F8A271;
+  color:  #fa8d50;;
   text-decoration: none;
 }
 
@@ -421,7 +423,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background:#fa8d50;
 }
 
 #hero .btn-watch-video {
@@ -444,7 +446,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-watch-video:hover i {
-  color: #F8A271;
+  color:  #fa8d50;;
 }
 
 #hero .animated {
@@ -647,15 +649,16 @@ section {
   border-radius: 4px;
   transition: 0.3s;
   line-height: 1;
-  color: #F8A271;
+  color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #F8A271;
+  background: #F8A271;
+  
 }
 
 .about .content .btn-learn-more:hover {
-  background: #F8A271;
+  background: #fa8d50;
   color: #fff;
   text-decoration: none;
 }
@@ -748,7 +751,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed:hover {
-  color: #F8A271;
+  color:  #fa8d50;;
 }
 
 .why-us .accordion-list a.collapsed .icon-show {
@@ -887,14 +890,14 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #F8A271;
+  color:  #fa8d50;;
 }
 
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgb(25, 113, 85, 0.9), rgb(25, 113, 85, 0.9)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -924,7 +927,7 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #F8A271;
+  background:  #fa8d50;
   border: 2px solid #F8A271;
 }
 
@@ -1060,6 +1063,8 @@ section {
 
 .team .member .member-info {
   padding-left: 30px;
+  margin-top:auto;
+  margin-bottom:auto;
 }
 
 .team .member h4 {
@@ -1118,7 +1123,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background: #F8A271;
+  background:  #fa8d50;;
 }
 
 .team .member .social a:hover i {
@@ -1207,31 +1212,31 @@ section {
   display: inline-block;
   padding: 12px 35px;
   border-radius: 50px;
-  color: #F8A271;
+  background: #F8A271;
   transition: none;
   font-size: 16px;
   font-weight: 500;
   font-family: "Jost", sans-serif;
   transition: 0.3s;
-  border: 1px solid #F8A271;
+  color:#fff;
 }
 
 .pricing .buy-btn:hover {
-  background: #F8A271;
+  background:  #fa8d50;;
   color: #fff;
 }
 
 .pricing .featured {
-  border-top-color: #F8A271;
+  border-top-color:  #fa8d50;;
 }
 
 .pricing .featured .buy-btn {
-  background: #F8A271;
+  background:  #fa8d50;;
   color: #fff;
 }
 
 .pricing .featured .buy-btn:hover {
-  background: #23a3df;
+  background:  #fa8d50;
 }
 
 @media (max-width: 992px) {
@@ -1319,7 +1324,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #F8A271;
+  color:  #fa8d50;;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1401,19 +1406,19 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #F8A271;
+  background:  #fa8d50;;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #F8A271;
+  background:  #fa8d50;;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #F8A271;
-  border-bottom: 3px solid #F8A271;
+  border-top: 3px solid  #fa8d50;;
+  border-bottom: 3px solid  #fa8d50;;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1710,7 +1715,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #209dd8;
+  background:  #fa8d50;;
 }
 
 #footer .footer-top {
@@ -1784,7 +1789,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #F8A271;
+  color:  #fa8d50;;
 }
 
 #footer .footer-top .social-links a {
@@ -1803,7 +1808,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #209dd8;
+  background:  #fa8d50;;
   color: #fff;
   text-decoration: none;
 }
